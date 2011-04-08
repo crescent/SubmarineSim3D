@@ -1,0 +1,28 @@
+#Hydrax cfg file.
+
+#Hydrax version field
+HydraxVersion=0.5.1
+
+#Main options field
+<vector3>Position=-50x0x-50
+<float>PlanesError=10.5
+#Shader mode: 0=HLSL, 1=CG, 2=GLSL
+<int>ShaderMode=0
+<float>FullReflectionDistance=1e+011
+<float>GlobalTransparency=0
+<float>NormalDistortion=0.075
+<vector3>WaterColor=0.009765x0.159464x0.125373
+
+#Components field
+Components=Depth|Caustics|Underwater|UnderwaterReflections
+
+#Depth parameters
+<float>DepthLimit=10
+
+#Smooth transitions parameters
+<float>SmoothPower=5
+
+#Caustics parameters
+<float>CausticsScale=15.0
+<float>CausticsPower=0.3
+<float>CausticsEnd=0.8
